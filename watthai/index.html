@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="topic">
+        <h1>TEMPLE BY REGION</h1>
+        <h2>ค้นหาข้อมูลวัดตามภูมิภาค</h2>
+    </div>
+    <div class="slider-container">
+        <div id="temple" class="templeall">
+            <div id="watthai" class="wat">
+                <div class="image-container">
+                    <img id="imagewatthai" class="imagewatthai2" src="image/Central.jpg" alt="Central Region">
+                    <div class="text-overlay">ภาคกลาง</div>
+                </div>
+            </div>
+            <div id="watthai" class="wat">
+                <div class="image-container">
+                    <img id="imagewatthai" class="imagewatthai2" src="image/Northern.jpg" alt="Northern Region">
+                    <div class="text-overlay">ภาคเหนือ</div>
+                </div>
+            </div>
+            <div id="watthai" class="wat">
+                <div class="image-container">
+                    <img id="imagewatthai" class="imagewatthai2" src="image/North-east.jpg" alt="North-east Region">
+                    <div class="text-overlay">ภาคตะวันออกเฉียงเหนือ</div>
+                </div>
+            </div>
+            <div id="watthai" class="wat">
+                <div class="image-container">
+                    <img id="imagewatthai" class="imagewatthai2" src="image/Southern.jpg" alt="Southern Region">
+                    <div class="text-overlay">ภาคใต้</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="controls">
+        <button onclick="setColumns(4)">Show 4 Images</button>
+        <button onclick="setColumns(3)">Show 3 Images</button>
+        <button onclick="setColumns(2)">Show 2 Images</button>
+        <button onclick="toggleAutoplay()">Toggle Autoplay</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
